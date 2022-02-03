@@ -1,0 +1,14 @@
+.brand-carousel-wrapper {
+  .owl-brand-slider {
+    .item {
+      width: 300px;
+      padding: 0 30px;
+
+      img {
+        width: 80% !important;
+        height: auto;
+        filter: grayscale(100%);
+      }
+    }
+  }
+}
