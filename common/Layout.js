@@ -10,7 +10,10 @@ const Layout = ({ title = 'React Components Market', meta, children }) => {
         {meta}
       </Head>
       <Nav />
-      <div className="layout-children">{children}</div>
+      <div className="layout-children">
+        <h1 className="text-center p-3">{title}</h1>
+        {children}
+      </div>
     </>
   )
 }

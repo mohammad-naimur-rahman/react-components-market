@@ -1,10 +1,14 @@
-import React from 'react'
+import dynamic from 'next/dynamic'
 import Layout from '../../common/Layout'
+const OwlCarouselSlider = dynamic(
+  () => import('../../components/slider/OwlCarouselSlider'),
+  { ssr: false }
+)
 
 const ImageSliderPage = () => {
   return (
-    <Layout>
-      <h1>This is up</h1>
+    <Layout title="Image Slider">
+      <OwlCarouselSlider />
     </Layout>
   )
 }
