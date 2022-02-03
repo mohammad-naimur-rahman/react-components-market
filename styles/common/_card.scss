@@ -1,0 +1,12 @@
+.card {
+  cursor: pointer;
+
+  img {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+
+  h4 {
+    color: $color-1;
+  }
+}
