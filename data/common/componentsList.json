@@ -4,5 +4,11 @@
     "title": "Image Slider",
     "href": "image-slider",
     "img": "/categories/slider.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Popup",
+    "href": "popup",
+    "img": "/categories/popup.png"
   }
 ]

@@ -52,6 +52,7 @@ const OwlCarouselSlider = () => {
               <h4>12</h4>
             </div>
           </OwlCarousel>
+          <button className="owl-next">Next</button>
         </div>
       </div>
     </div>

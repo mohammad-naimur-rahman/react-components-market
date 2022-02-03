@@ -1,10 +1,13 @@
 import dynamic from 'next/dynamic'
 import Layout from '../../common/Layout'
-import OwlBrands from '../../components/slider/OwlBrands'
 const OwlCarouselSlider = dynamic(
   () => import('../../components/slider/OwlCarouselSlider'),
   { ssr: false }
 )
+
+const OwlBrands = dynamic(() => import('../../components/slider/OwlBrands'), {
+  ssr: false
+})
 
 const ImageSliderPage = () => {
   return (
